@@ -7083,9 +7083,7 @@ function() {
 
         if (l.originalEvent && (l = l.originalEvent), i.isTouched) {
             if (!i.isTouchEvent || "mousemove" !== l.type) {
-                var d = "touchmove" === l.type && l.targetTouches && (l.targetTouches[0] || l.changedTouches[0]),
-                    h = "touchmove" === l.type ? d.pageX : l.pageX,
-                    p = "touchmove" === l.type ? d.pageY : l.pageY;
+
                 if (l.preventedByNestedSwiper) return r.startX = h, void(r.startY = p);
                 if (!this.allowTouchMove) return this.allowClick = !1, void(i.isTouched && (n.extend(r, {
                     startX: h,
