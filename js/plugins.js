@@ -7080,11 +7080,7 @@ function() {
     }
 
     function O(t) {
-        var i = this.touchEventsData,
-            a = this.params,
-            r = this.touches,
-            o = this.rtlTranslate,
-            l = t;
+
         if (l.originalEvent && (l = l.originalEvent), i.isTouched) {
             if (!i.isTouchEvent || "mousemove" !== l.type) {
                 var d = "touchmove" === l.type && l.targetTouches && (l.targetTouches[0] || l.changedTouches[0]),
