@@ -3030,19 +3030,7 @@ body {
 }
 
 .portfolio .gallery.twsty .items {
-    width: 50%;
-}
-
-.portfolio .gallery.twsty .four-column {
-    width: 25% !important;
-}
-
-.portfolio .gallery.twsty .four-column .item-img {
-    height: 300px;
-}
-
-.portfolio .gallery.twsty .three-column {
-    width: 33.333333% !important;
+    width: 100%;
 }
 
 .portfolio .gallery.inf-lit .items {
