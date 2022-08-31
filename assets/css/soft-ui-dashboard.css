@@ -129,7 +129,7 @@ h6,
 
 
 .portfolio h5 {
-  color: #344767;
+  color: white;
 }
 .portfolio h6{
   font-size: 15px;
@@ -137,7 +137,7 @@ h6,
 }
 
 .portfolio.full-bg .cluom:hover .info h5{
-  color: rgb(0, 0, 0) !important;
+  color: #344767 !important;
 }
 
 .portfolio.full-bg .cluom:hover .info h6{

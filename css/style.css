@@ -3882,9 +3882,13 @@ body {
 }
 
 .team-img{
+    border-radius: 1rem;
     height: 250px;
 }
 
+.team-mem{
+    padding: 15px !important;
+}
 
 .team .team-container {
     width: 140%;
@@ -3913,6 +3917,7 @@ body {
 }
 
 .team .item .img:hover:after {
+    border-radius: 1rem;
     opacity: .5;
 }
 
