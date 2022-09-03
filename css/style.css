@@ -261,7 +261,7 @@ span:hover {
 }
 
 .section-padding {
-    padding: 120px 0;
+    padding: 30px 0;
 }
 
 .section-ptb {
@@ -4956,6 +4956,12 @@ body {
     border-color: #b19777;
     color: #b19777;
 }
+
+
+.main-footer a:hover {
+    color: #b19777;
+}
+
 
 .main-footer .usful-links ul {
     margin: 0;
